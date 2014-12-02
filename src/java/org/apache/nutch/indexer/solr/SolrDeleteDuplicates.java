@@ -367,7 +367,7 @@ implements Tool {
     
     getConf().set(SolrConstants.SERVER_URL, solrUrl);
     
-    Job job = new Job(getConf(), "solrdedup");
+    Job job = Job.getInstance(getConf(), "solrdedup");
 
     job.setInputFormatClass(SolrInputFormat.class);
     job.setOutputFormatClass(NullOutputFormat.class);
