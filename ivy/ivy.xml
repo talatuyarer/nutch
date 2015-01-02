@@ -121,7 +121,7 @@
     -->
     <!-- Uncomment this to use HBase as Gora backend. -->
     
-    <dependency org="org.apache.gora" name="gora-hbase" rev="0.6-SNAPSHOT" conf="*->default" /> 
+    <dependency org="org.apache.gora" name="gora-hbase" rev="0.6-SNAPSHOT" conf="*->default;test->[org=org.apache.hbase]compile"/>
     
     <!-- Uncomment this to use Accumulo as Gora backend. -->
     <!--

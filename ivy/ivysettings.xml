@@ -39,16 +39,17 @@
     value="[organisation]/[module]/[revision]/[module]-[revision]"/>
   <property name="maven2.pattern.ext"
     value="${maven2.pattern}.[ext]"/>
-  <property name="m2-pattern" value="${user.home}/.m2/repository/[organisation]/[module]/[revision]/[module]-[revision](-[classifier]).[ext]" override="false" />
+  <property name="local-pattern" value="https://github.com/talatuyarer/maven-repo/tree/master/" override="false" />
     
   <!-- pull in the local repository -->
   <include url="${ivy.default.conf.dir}/ivyconf-local.xml"/>
   <settings defaultResolver="default"/>
   <resolvers>
-     <filesystem name="local" m2compatible="true" >
-        <artifact pattern="${m2-pattern}"/>
-        <ivy pattern="${m2-pattern}"/>
-    </filesystem>
+    <ibiblio name="local"
+      root="${local-pattern}"
+      changingPattern=".*-SNAPSHOT"
+      m2compatible="true"
+      /> 
   
     <ibiblio name="maven2"
       root="${repo.maven.org}"
