@@ -39,16 +39,16 @@
     value="[organisation]/[module]/[revision]/[module]-[revision]"/>
   <property name="maven2.pattern.ext"
     value="${maven2.pattern}.[ext]"/>
-  <property name="local-pattern" value="https://github.com/talatuyarer/maven-repo/tree/master/" override="false" />
+  <property name="local-snapshot" value="https://github.com/talatuyarer/maven-repo/raw/master/" override="false" />
     
   <!-- pull in the local repository -->
   <include url="${ivy.default.conf.dir}/ivyconf-local.xml"/>
   <settings defaultResolver="default"/>
   <resolvers>
     <ibiblio name="local"
-      root="${local-pattern}"
-      changingPattern=".*-SNAPSHOT"
+      root="${local-snapshot}"
       m2compatible="true"
+      changingPattern=".*-SNAPSHOT"
       /> 
   
     <ibiblio name="maven2"

@@ -121,7 +121,10 @@
     -->
     <!-- Uncomment this to use HBase as Gora backend. -->
     
-    <dependency org="org.apache.gora" name="gora-hbase" rev="0.6-SNAPSHOT" conf="*->default;test->[org=org.apache.hbase]compile"/>
+    <dependency org="org.apache.gora" name="gora-hbase" rev="0.6-SNAPSHOT" conf="*->default"/>
+    <!-- IVY has a bug IVY-1505-->
+    <dependency org="org.apache.hbase" name="hbase-common" rev="0.98.8-hadoop2" conf="*->default"/>
+    <dependency org="org.apache.hbase" name="hbase-annotations" rev="0.98.8-hadoop2" conf="*->default"/>
     
     <!-- Uncomment this to use Accumulo as Gora backend. -->
     <!--
