@@ -1,0 +1,15 @@
+2015-01-05 16:19:48,196 INFO  conf.Configuration - found resource regex-urlfilter.txt at file:/home/talat/workspace/nutch/conf/regex-urlfilter.txt
+2015-01-05 16:20:08,968 INFO  conf.Configuration - found resource regex-urlfilter.txt at file:/home/talat/workspace/nutch/conf/regex-urlfilter.txt
+2015-01-05 16:20:21,898 INFO  conf.Configuration - found resource regex-urlfilter.txt at file:/home/talat/workspace/nutch/conf/regex-urlfilter.txt
+2015-01-05 16:20:26,346 INFO  conf.Configuration - found resource regex-urlfilter.txt at file:/home/talat/workspace/nutch/conf/regex-urlfilter.txt
+2015-01-05 16:23:00,408 INFO  conf.Configuration - found resource regex-urlfilter.txt at file:/home/talat/workspace/nutch/conf/regex-urlfilter.txt
+2015-01-05 16:30:20,770 INFO  api.RegexURLFilterBaseTest - bench time (50) 202ms
+2015-01-05 16:30:20,935 INFO  api.RegexURLFilterBaseTest - bench time (100) 165ms
+2015-01-05 16:30:21,255 INFO  api.RegexURLFilterBaseTest - bench time (200) 319ms
+2015-01-05 16:30:21,868 INFO  api.RegexURLFilterBaseTest - bench time (400) 612ms
+2015-01-05 16:30:23,067 INFO  api.RegexURLFilterBaseTest - bench time (800) 1199ms
+2015-01-05 16:38:06,442 INFO  api.RegexURLFilterBaseTest - bench time (50) 193ms
+2015-01-05 16:38:06,590 INFO  api.RegexURLFilterBaseTest - bench time (100) 148ms
+2015-01-05 16:38:06,863 INFO  api.RegexURLFilterBaseTest - bench time (200) 273ms
+2015-01-05 16:38:07,407 INFO  api.RegexURLFilterBaseTest - bench time (400) 544ms
+2015-01-05 16:38:08,488 INFO  api.RegexURLFilterBaseTest - bench time (800) 1081ms

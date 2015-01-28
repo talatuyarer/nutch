@@ -960,6 +960,7 @@
         <!-- feed is currently disabled 
         <source path="${basedir}/src/plugin/feed/src/java/" />
         <source path="${basedir}/src/plugin/feed/src/test/" /> -->
+      	<source path="${basedir}/src/plugin/filter-xpath/src/java/" />
         <source path="${basedir}/src/plugin/indexer-solr/src/java/" />
       	<source path="${basedir}/src/plugin/indexer-elastic/src/java/" />
       	<source path="${basedir}/src/plugin/index-anchor/src/java/" />

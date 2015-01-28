@@ -50,7 +50,7 @@ public abstract class RegexURLFilterBaseTest {
   protected static final Logger LOG = LoggerFactory.getLogger(RegexURLFilterBaseTest.class);  
 
   private final static String SEPARATOR = System.getProperty("file.separator");  
-  private final static String SAMPLES = System.getProperty("test.data", ".");
+  private final static String SAMPLES = System.getProperty("test.data", "/home/talat/workspace/nutch/src/plugin/urlfilter-automaton/sample");
   
   protected abstract URLFilter getURLFilter(Reader rules);
 

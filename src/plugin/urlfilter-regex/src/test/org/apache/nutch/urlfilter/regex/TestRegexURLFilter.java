@@ -44,13 +44,14 @@ public class TestRegexURLFilter extends RegexURLFilterBaseTest {
   
   @Test
   public void test() {
-    test("WholeWebCrawling");
-    test("IntranetCrawling");
-    bench(50, "Benchmarks");
-    bench(100, "Benchmarks");
-    bench(200, "Benchmarks");
-    bench(400, "Benchmarks");
-    bench(800, "Benchmarks");
+    test("Reidin");
+//    test("WholeWebCrawling");
+//    test("IntranetCrawling");
+//    bench(50, "Benchmarks");
+//    bench(100, "Benchmarks");
+//    bench(200, "Benchmarks");
+//    bench(400, "Benchmarks");
+//    bench(800, "Benchmarks");
   }
 
 }
