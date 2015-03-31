@@ -63,6 +63,7 @@
      <ant dir="urlnormalizer-basic" target="deploy"/>
      <ant dir="urlnormalizer-pass" target="deploy"/>
      <ant dir="urlnormalizer-regex" target="deploy"/>
+     <ant dir="listings-date" target="deploy"/>
      <!--
      <ant dir="feed" target="deploy"/>
      <ant dir="parse-ext" target="deploy"/>
@@ -101,6 +102,7 @@
      <ant dir="microformats-reltag" target="test"/>
      <ant dir="scoring-opic" target="test"/>
      <ant dir="tld" target="test"/>
+     <ant dir="listings-date" target="test"/>
      <!--
      <ant dir="feed" target="test"/>
      <ant dir="parse-ext" target="test"/>
@@ -154,5 +156,6 @@
     <ant dir="urlnormalizer-basic" target="clean"/>
     <ant dir="urlnormalizer-pass" target="clean"/>
     <ant dir="urlnormalizer-regex" target="clean"/>
+    <ant dir="listings-date" target="clean"/>
   </target>
 </project>

@@ -168,7 +168,7 @@
       <packageset dir="${plugins.dir}/creativecommons/src/java"/>
       <!--packageset dir="${plugins.dir}/feed/src/java"/-->
       <packageset dir="${plugins.dir}/index-anchor/src/java"/>
-      <packageset dir="${plugins.dir}/index-basic/src/java"/>
+      <packageset dir="${plugins.dir}/index-basic/src/java"/>      
       <packageset dir="${plugins.dir}/index-metadata/src/java"/>
       <packageset dir="${plugins.dir}/index-more/src/java"/>
       <packageset dir="${plugins.dir}/indexer-elastic/src/java"/>
@@ -202,6 +202,7 @@
       <packageset dir="${plugins.dir}/urlnormalizer-basic/src/java"/>
       <packageset dir="${plugins.dir}/urlnormalizer-pass/src/java"/>
       <packageset dir="${plugins.dir}/urlnormalizer-regex/src/java"/>
+      <packageset dir="${plugins.dir}/listings-date/src/java"/>
 
    <link href="${javadoc.link.java}" />
    <link href="${javadoc.link.lucene}" />
@@ -631,7 +632,7 @@
       <packageset dir="${plugins.dir}/urlnormalizer-basic/src/java"/>
       <packageset dir="${plugins.dir}/urlnormalizer-pass/src/java"/>
       <packageset dir="${plugins.dir}/urlnormalizer-regex/src/java"/>
-
+      <packageset dir="${plugins.dir}/listings-date/src/java"/>
    <link href="${javadoc.link.java}" />
    <link href="${javadoc.link.lucene}" />
    <link href="${javadoc.link.hadoop}" />
@@ -1027,7 +1028,8 @@
         <source path="${basedir}/src/plugin/urlnormalizer-pass/src/test/" />
         <source path="${basedir}/src/plugin/urlnormalizer-regex/src/java/" />
         <source path="${basedir}/src/plugin/urlnormalizer-regex/src/test/" />
-
+        <source path="${basedir}/src/plugin/listings-date/src/java/" />
+        <source path="${basedir}/src/plugin/listings-date/src/test/" />
         <output path="${basedir}/build/classes" />
       </classpath>
     </eclipse>
